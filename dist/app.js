@@ -147,8 +147,20 @@ function renderWishDialog(){
     return `<section class="dialog-group"><h3>${g.name}<span>${chosen.length} / 5</span></h3>${chosen.length?`<div class="wishlist-tags">${chosen.map(c=>`<button class="wish-name" data-wish="${esc(c.id)}">★ ${esc(c.name)} <span>×</span></button>`).join('')}</div>`:'<p class="fine-print">まだ登録されていません。一覧で☆を押すと追加できます。</p>'}</section>`;
   }).join('');
 }
-function download(text,name,type){const blob=new Blob([text],{type}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
-function exportData(){persist();download(JSON.stringify({...state,exportedAt:new Date().toISOString()},null,2),`nikke-recruit-backup-${new Date().toISOString().slice(0,10)}.json`,'application/json');toast('バックアップを書き出しました');}
+function download(text,name,type){const blob=new Blob([text],{type}),url=URL.createObjectURL(blob);let a;try{a=document.createElement('a');a.href=url;a.download=name;document.body.append(a);a.click();}finally{a?.remove();setTimeout(()=>URL.revokeObjectURL(url),30000);}}
+function exportData(){
+  persist();const text=JSON.stringify({...state,exportedAt:new Date().toISOString()},null,2);
+  $('exportText').value=text;
+  $('exportHelp').textContent='ファイルが保存されない場合は、下のテキストをコピーしてください。移行先の「データ・設定」→「テキストを読み込む」に貼り付けて引き継げます。';
+  if(!$('exportDialog').open)$('exportDialog').showModal();
+  try{download(text,`nikke-recruit-backup-${new Date().toISOString().slice(0,10)}.json`,'application/json');}
+  catch(error){$('exportHelp').textContent='この画面ではファイルを保存できませんでした。下のテキストをコピーし、移行先の「テキストを読み込む」に貼り付けてください。';}
+}
+function readJsonBackup(text,source){
+  if(new Blob([text]).size>2000000)throw new Error('データが大きすぎます。2MB以下のバックアップを使ってください。');
+  const raw=JSON.parse(text.replace(/^\uFEFF/,''));
+  return {state:sanitize(raw),savedAt:raw.exportedAt||null,source};
+}
 function afterStateChange(){save();renderRoster();if(page==='calculator')renderCalculation();if(page==='settings')renderSettings();}
 function portraitMarkup(c){
   const photo=PORTRAITS[c.id];
@@ -162,10 +174,11 @@ function summaryMarkup(data,at){
 }
 function offerIncoming(incoming){
   pendingIncoming=incoming;
-  $('importHeading').textContent=incoming.source==='recovery'?'取り込み前のデータに戻す':incoming.source==='file'?'JSONのデータを取り込む':'引き継ぎURLのデータを取り込む';
+  const isJson=['file','text'].includes(incoming.source);
+  $('importHeading').textContent=incoming.source==='recovery'?'取り込み前のデータに戻す':isJson?'JSONのデータを取り込む':'引き継ぎURLのデータを取り込む';
   $('localSummary').innerHTML=summaryMarkup(state,localUpdatedAt);
   $('incomingSummary').innerHTML=summaryMarkup(incoming.state,incoming.savedAt);
-  $('applyIncoming').textContent=incoming.source==='recovery'?'取り込み前に戻す':incoming.source==='file'?'JSONのデータを取り込む':'URLのデータを取り込む';
+  $('applyIncoming').textContent=incoming.source==='recovery'?'取り込み前に戻す':isJson?'JSONのデータを取り込む':'URLのデータを取り込む';
   if(!$('importDialog').open)$('importDialog').showModal();
 }
 function applyIncoming(){
@@ -243,12 +256,24 @@ $('autoWish').onclick=()=>{
   state.wish=GROUPS.flatMap(g=>chars.filter(c=>c.group===g.id).sort((a,b)=>Number(state.owned.includes(a.id))-Number(state.owned.includes(b.id))||a.name.localeCompare(b.name,'ja')).slice(0,5).map(c=>c.id));state.wishEnabled=true;afterStateChange();toast('未所持優先で仮設定しました。性能順ではありません。');
 };
 $('exportData').onclick=exportData;$('quickExport').onclick=exportData;$('importData').onclick=()=>$('importFile').click();
+$('closeExport').onclick=()=>$('exportDialog').close();
+$('copyExport').onclick=async()=>{
+  try{await navigator.clipboard.writeText($('exportText').value);toast('引き継ぎ用テキストをコピーしました');}
+  catch(error){$('exportText').focus();$('exportText').select();toast('全文を選択しました。端末のコピー操作でコピーしてください。');}
+};
+$('importText').onclick=()=>{$('importTextValue').value='';$('importTextError').textContent='';$('textImportDialog').showModal();$('importTextValue').focus();};
+$('closeTextImport').onclick=()=>$('textImportDialog').close();
+$('reviewTextImport').onclick=()=>{
+  try{
+    const incoming=readJsonBackup($('importTextValue').value,'text');
+    $('textImportDialog').close();offerIncoming(incoming);
+  }catch(error){$('importTextError').textContent=error instanceof SyntaxError?'読み取れませんでした。書き出したテキストを先頭の { から末尾の } まで貼り付けてください。':error.message;}
+};
 $('importFile').onchange=async e=>{
   const file=e.target.files[0];if(!file)return;
   try{
     if(file.size>2000000)throw new Error('ファイルが大きすぎます。2MB以下のバックアップを選んでください。');
-    const raw=JSON.parse(await file.text());
-    offerIncoming({state:sanitize(raw),savedAt:raw.exportedAt||null,source:'file'});
+    offerIncoming(readJsonBackup(await file.text(),'file'));
   }catch(error){toast(error instanceof SyntaxError?'JSONファイルを読み取れませんでした':error.message);}finally{e.target.value='';}
 };
 $('exportMissing').onclick=()=>{
