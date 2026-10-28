@@ -11,6 +11,19 @@ test('snapshot contains only the 124 ordinary-recruit SSRs, with separate oversp
   assert.deepEqual(['elysion','missilis','tetra','pilgrim'].map(g=>chars.filter(c=>c.group===g).length),[34,27,42,21]);
   assert.equal(CHARACTERS.filter(c=>c.since<='2026-10-29').length,127);
 });
+test('October 29 additions enter the correct company and common recruit pools without changing total SSR rates',()=>{
+  const latest=CHARACTERS.filter(c=>c.since<='2026-10-29');
+  assert.deepEqual(['elysion','missilis','tetra','pilgrim'].map(g=>latest.filter(c=>c.group===g).length),[34,29,43,21]);
+  const s=base();s.resources.tickets=100;
+  const model=buildModel(latest,s);close(model.ssr,4);
+  for(const id of ['missilis-guilty-bunny','missilis-sin-bunny','tetra-belorta-witch'])close(model.rows.find(c=>c.id===id).ticketP,.035/106);
+  s.resources.tickets=0;s.resources.missilisPerfect=50;
+  const missilis=buildModel(latest,s);
+  for(const id of ['missilis-guilty-bunny','missilis-sin-bunny'])close(missilis.rows.find(c=>c.id===id).probability,1/29);
+  close(missilis.rows.find(c=>c.id==='tetra-belorta-witch').probability,0);
+  s.resources.missilisPerfect=0;s.resources.tetraPerfect=50;
+  close(buildModel(latest,s).rows.find(c=>c.id==='tetra-belorta-witch').probability,1/43);
+});
 test('zero resources produces zero expected new, total SSR, and chance',()=>{const m=buildModel(chars,base());close(m.distinct,0);close(m.ssr,0);close(m.anyNew,0);});
 test('100 non-wishlist pulls split 3.5% / 0.5% correctly and account for duplicates',()=>{
   const s=base();s.resources.tickets=100;const m=buildModel(chars,s);

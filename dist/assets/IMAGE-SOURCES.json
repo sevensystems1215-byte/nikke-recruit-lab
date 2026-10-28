@@ -1,8 +1,8 @@
 {
-  "checkedAt": "2026-10-28",
+  "checkedAt": "2026-10-29",
   "copyright": "© SHIFT UP / Proxima Beta",
   "description": "Official NIKKE website and publisher character-release images. Originals copied byte-for-byte; display framing uses CSS only. Availability checks are not a redistribution license.",
-  "displayReview": "All 124 display windows were checked using a PDF clipping original images with the same coordinates as the CSS framing. Browser preview was unavailable; actual CSS rendering remains an integration check.",
+  "displayReview": "Original 124 framing windows reviewed using PDF. Three 2026-10-29 additions use official publisher announcement originals and CSS face framing; browser verification status is recorded per character.",
   "characters": [
     {
       "id": "elysion-1",
@@ -2483,6 +2483,69 @@
         "top": 345.0,
         "size": 250
       }
+    },
+    {
+      "id": "missilis-guilty-bunny",
+      "name": "ギルティ：マイティバニー",
+      "src": "assets/characters/missilis-guilty-bunny.jpg",
+      "backgroundSize": "535.714% auto",
+      "backgroundPosition": "76.434% 3.982%",
+      "source": "https://press.levelinfinite.com/ja-JP/NIKKECOIN-RUSH-SHOWDOWN-C",
+      "sourceType": "公式パブリッシャー・キャラクター紹介画像",
+      "cropReview": "source-reviewed",
+      "imageUrl": "https://imgeucdn.gamespress.com/cdn/files/LevelInfinite/2026/09/150708-553b35a1/02.jpg?bgcolor=black&format=jpg&mode=max&otf=y&quality=90&sky=2f9e1aabb83fdc58b43d4d13b76602c46cac3227a190633b8300741899798eb4&w=600",
+      "width": 600,
+      "height": 338,
+      "bytes": 68739,
+      "sha256": "6f0972ca3664b0606cea6e32f2fae8700b8767ec94570564bb1af13524f66629",
+      "crop": {
+        "left": 373,
+        "top": 9,
+        "size": 112
+      },
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "missilis-sin-bunny",
+      "name": "シン：スウィフトバニー",
+      "src": "assets/characters/missilis-sin-bunny.jpg",
+      "backgroundSize": "491.803% auto",
+      "backgroundPosition": "83.054% 11.574%",
+      "source": "https://press.levelinfinite.com/ja-JP/NIKKECOIN-RUSH-SHOWDOWN-C",
+      "sourceType": "公式パブリッシャー・キャラクター紹介画像",
+      "cropReview": "source-reviewed",
+      "imageUrl": "https://imgeucdn.gamespress.com/cdn/files/LevelInfinite/2026/09/150708-553b35a1/04.jpg?bgcolor=black&format=jpg&mode=max&otf=y&quality=90&sky=dbbd122da4dd654dd367046c7a662fd2d96b2f86001f5080b5a2c5a3dce3d715&w=600",
+      "width": 600,
+      "height": 338,
+      "bytes": 69039,
+      "sha256": "0c298548700def8fafe88953cfc0cb2f9a77e3da4b2949baf5ac2821e89e6462",
+      "crop": {
+        "left": 397,
+        "top": 25,
+        "size": 122
+      },
+      "checkedAt": "2026-10-29"
+    },
+    {
+      "id": "tetra-belorta-witch",
+      "name": "ベロータ：パンプキンウィッチ",
+      "src": "assets/characters/tetra-belorta-witch.jpg",
+      "backgroundSize": "495.868% auto",
+      "backgroundPosition": "68.894% 6.912%",
+      "source": "https://press.levelinfinite.com/ja-JP/NIKKELITTLE-WITCH-TRICK-",
+      "sourceType": "公式パブリッシャー・キャラクター紹介画像",
+      "cropReview": "source-reviewed",
+      "imageUrl": "https://imgeucdn.gamespress.com/cdn/files/LevelInfinite/2026/10/130612-1f0bfeef/04.jpeg?bgcolor=black&format=jpg&mode=max&otf=y&quality=90&sky=ce24383461a29f43a2bf0ef3332b9ad90520c28678a8f246286c847c12b2ce92&w=600",
+      "width": 600,
+      "height": 338,
+      "bytes": 82619,
+      "sha256": "f505e1884ee971a37d08181446ca5e948407d82159fe57328dca12ef23912365",
+      "crop": {
+        "left": 330,
+        "top": 15,
+        "size": 121
+      },
+      "checkedAt": "2026-10-29"
     }
   ]
 }

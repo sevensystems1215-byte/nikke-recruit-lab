@@ -1,4 +1,4 @@
-export const SNAPSHOT = '2026-10-28';
+export const SNAPSHOT = '2026-10-29';
 export const GROUPS = [
   {id:'elysion',name:'エリシオン',en:'ELYSION',color:'#236fa1'},
   {id:'missilis',name:'ミシリス',en:'MISSILIS',color:'#926020'},
@@ -44,5 +44,5 @@ export const REFERENCES=[
   ['ハイクオリティアクセス','https://gamewith.jp/nikke/article/show/520719'],
   ['アクセスの還元個数','https://wikiwiki.jp/fpo2w6pt/勝利の女神：NIKKE（メガニケ）'],
   ['パーフェクトモールド','https://gamewith.jp/nikke/article/show/520718'],
-  ['10月29日の一般募集追加','https://nikke-synergy.com/notes']
+  ['10月29日の一般募集追加（公式告知・繁体字）','https://nikke.hotcool.tw/News_detail-237']
 ];

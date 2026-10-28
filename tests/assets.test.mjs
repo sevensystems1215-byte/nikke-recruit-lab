@@ -4,9 +4,9 @@ import {readFileSync} from 'node:fs';
 import {CHARACTERS,SNAPSHOT} from '../dist/data.js';
 import {PORTRAITS} from '../dist/portraits.js';
 
-test('every character in the 124-character snapshot has a bundled official portrait',()=>{
+test('every character in the current 127-character snapshot has a bundled official portrait',()=>{
   const chars=CHARACTERS.filter(c=>c.since<=SNAPSHOT);
-  assert.equal(Object.keys(PORTRAITS).length,124);
+  assert.equal(chars.length,127);assert.equal(Object.keys(PORTRAITS).length,127);
   for(const char of chars){
     const portrait=PORTRAITS[char.id];assert.ok(portrait,char.name);
     assert.ok(portrait.src.startsWith('assets/characters/'));

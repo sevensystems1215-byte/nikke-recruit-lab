@@ -992,6 +992,30 @@ export const PORTRAITS = Object.freeze({
     "source": "https://press.levelinfinite.com/ja-JP/NIKKESTAR-ANIS",
     "sourceType": "公式キャラクター紹介画像",
     "cropReview": "display-reviewed-pdf"
+  },
+  "missilis-guilty-bunny": {
+    "src": "assets/characters/missilis-guilty-bunny.jpg",
+    "backgroundSize": "535.714% auto",
+    "backgroundPosition": "76.434% 3.982%",
+    "source": "https://press.levelinfinite.com/ja-JP/NIKKECOIN-RUSH-SHOWDOWN-C",
+    "sourceType": "公式パブリッシャー・キャラクター紹介画像",
+    "cropReview": "source-reviewed"
+  },
+  "missilis-sin-bunny": {
+    "src": "assets/characters/missilis-sin-bunny.jpg",
+    "backgroundSize": "491.803% auto",
+    "backgroundPosition": "83.054% 11.574%",
+    "source": "https://press.levelinfinite.com/ja-JP/NIKKECOIN-RUSH-SHOWDOWN-C",
+    "sourceType": "公式パブリッシャー・キャラクター紹介画像",
+    "cropReview": "source-reviewed"
+  },
+  "tetra-belorta-witch": {
+    "src": "assets/characters/tetra-belorta-witch.jpg",
+    "backgroundSize": "495.868% auto",
+    "backgroundPosition": "68.894% 6.912%",
+    "source": "https://press.levelinfinite.com/ja-JP/NIKKELITTLE-WITCH-TRICK-",
+    "sourceType": "公式パブリッシャー・キャラクター紹介画像",
+    "cropReview": "source-reviewed"
   }
 });
 export const PORTRAIT_CREDIT = "© SHIFT UP / Proxima Beta";

@@ -286,7 +286,7 @@ $('exportCollection').onclick=()=>{
   const rows=[['名前','グループ','所持状況','凸状況','ウィッシュリスト'],...activeChars().map(c=>[c.name,groupFor(c.group).name,state.owned.includes(c.id)?'所持済み':'未所持',rankLabel(rankFor(state,c.id)),state.wish.includes(c.id)?'登録済み':'未登録'])];
   download('\uFEFF'+rows.map(row=>row.map(safe).join(',')).join('\r\n'),`nikke-collection-${state.snapshot}.csv`,'text/csv;charset=utf-8');toast('凸状況を含む所持一覧を保存しました');
 };
-$('snapshot').onchange=e=>{state.snapshot=e.target.value;const available=new Set(activeChars().map(c=>c.id));state.wish=state.wish.filter(id=>available.has(id));afterStateChange();toast(`募集対象日を${state.snapshot}に変更しました`);};
+$('snapshot').onchange=e=>{state.snapshot=e.target.value;state.followLatest=state.snapshot===SNAPSHOT;const available=new Set(activeChars().map(c=>c.id));state.wish=state.wish.filter(id=>available.has(id));afterStateChange();toast(`募集対象日を${state.snapshot}に変更しました`);};
 $('ratesInputs').addEventListener('change',e=>{const id=e.target.dataset.rate;if(!id)return;const value=Number(e.target.value);if(!Number.isFinite(value)||value<0||value>100){e.target.value=state.rates[id];toast('0〜100の数値を入力してください');return;}if(['ticketNormal','ticketRare'].includes(id)&&value+state.rates[id==='ticketNormal'?'ticketRare':'ticketNormal']>100){e.target.value=state.rates[id];toast('一般募集の確率合計は100%以下にしてください');return;}state.rates[id]=id==='refund'?Math.floor(value):value;save();});
 $('defaultRates').onclick=()=>{state.rates={...DEFAULT_RATES};afterStateChange();toast('排出率を標準値に戻しました');};
 $('addCharacter').onsubmit=e=>{

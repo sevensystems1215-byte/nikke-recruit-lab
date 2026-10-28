@@ -50,7 +50,7 @@ const makeOwned=(id,rank)=>{const s=storage.baseState();s.owned=[id];s.ranks={[i
 test('company filters render their Overspec characters and match the displayed counts',async()=>{
   const app=await boot();
   const expected={elysion:['overspec-1'],missilis:['overspec-2','overspec-4'],tetra:['overspec-3'],pilgrim:['overspec-1','overspec-2','overspec-3','overspec-4']};
-  const counts={elysion:35,missilis:29,tetra:43,pilgrim:21};
+  const counts={elysion:35,missilis:31,tetra:44,pilgrim:21};
   for(const [group,ids] of Object.entries(expected)){
     app.filterGroup(group);
     const markup=app.elements.characters.innerHTML;
@@ -59,7 +59,27 @@ test('company filters render their Overspec characters and match the displayed c
     assert.match(app.elements.groupFilters.innerHTML,new RegExp(`data-group="${group}"[^>]*>.*?<small>${counts[group]}</small>`));
   }
   app.filterGroup('all');
+  assert.equal((app.elements.characters.innerHTML.match(/data-rank="/g)||[]).length,127);
+});
+
+test('legacy browser inventory opens with the three new characters and a selected historical date survives reload',async()=>{
+  const local=new Store(),old=makeOwned('elysion-1',7);
+  old.snapshot='2026-10-28';delete old.followLatest;old.resources.tickets=217;
+  local.setItem(storage.STORAGE_KEY,JSON.stringify(old));
+  const app=await boot({local});
+  assert.equal(app.state().snapshot,'2026-10-29');assert.equal(app.state().ranks['elysion-1'],7);
+  assert.equal(app.state().resources.tickets,217);
+  for(const id of ['missilis-guilty-bunny','missilis-sin-bunny','tetra-belorta-witch']){
+    assert.ok(app.elements.characters.innerHTML.includes(`data-rank="${id}"`));
+    assert.equal(app.state().owned.includes(id),false);
+  }
+  app.elements.snapshot.onchange({target:{value:'2026-10-28'}});
   assert.equal((app.elements.characters.innerHTML.match(/data-rank="/g)||[]).length,124);
+  await app.elements.quickSave.onclick();
+  const reopened=await boot({local,url:app.location.href});
+  assert.equal(reopened.state().snapshot,'2026-10-28');assert.equal(reopened.state().followLatest,false);
+  assert.equal(reopened.state().ranks['elysion-1'],7);assert.equal(reopened.state().resources.tickets,217);
+  assert.equal((reopened.elements.characters.innerHTML.match(/data-rank="/g)||[]).length,124);
 });
 
 test('editing then immediately saving flushes the newest state into the URL and survives reopening',async()=>{

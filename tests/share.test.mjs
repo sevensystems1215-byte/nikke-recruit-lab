@@ -79,6 +79,18 @@ test('legacy ownership-only JSON remains compatible and initializes no limit bre
   assert.deepEqual(migrated.ranks,{'elysion-1':0,'tetra-3':0});
   assert.equal(migrated.resources.tickets,0);
 });
+test('old URLs and JSON advance to the current catalog without changing inventory, resources or settings',async()=>{
+  const old=sample();old.snapshot='2026-10-28';delete old.followLatest;
+  const original=structuredClone(old);
+  for(const migrated of [sanitizeState(old),(await decodeSave(rawToken({v:1,at:when,state:old}))).state]){
+    assert.equal(migrated.snapshot,'2026-10-29');assert.equal(migrated.followLatest,true);
+    for(const key of ['owned','ranks','wish','excluded','custom','resources','rates','wishEnabled','recycle'])assert.deepEqual(migrated[key],old[key]);
+  }
+  assert.deepEqual(old,original);
+  const pinned={...old,followLatest:false};
+  const decoded=await decodeSave(await encodeSave(pinned,when));
+  assert.equal(decoded.state.snapshot,'2026-10-28');assert.equal(decoded.state.followLatest,false);
+});
 test('browser save round-trip retains content and timestamps',()=>{
   const storage=new MemoryStorage();assert.equal(loadLocalState(storage).exists,false);
   writeLocalState(storage,sample(),when);

@@ -5,7 +5,7 @@ import {normalizeRanks} from './collection.js';
 export const STORAGE_KEY='nikke-recruit-lab-v1';
 export const BACKUP_KEY=`${STORAGE_KEY}-before-import`;
 const normalize=s=>s.normalize('NFKC').toLowerCase().replace(/[\s：:・.]/g,'');
-export const baseState=()=>({version:1,snapshot:SNAPSHOT,owned:[],ranks:{},wish:[],excluded:[],custom:[],resources:Object.fromEntries(SOURCES.map(s=>[s.id,0])),rates:{...DEFAULT_RATES},wishEnabled:true,recycle:true});
+export const baseState=()=>({version:1,snapshot:SNAPSHOT,followLatest:true,owned:[],ranks:{},wish:[],excluded:[],custom:[],resources:Object.fromEntries(SOURCES.map(s=>[s.id,0])),rates:{...DEFAULT_RATES},wishEnabled:true,recycle:true});
 
 export function sanitizeState(raw,{strict=false}={}){
   if(!raw||typeof raw!=='object'||Array.isArray(raw)||raw.version!==1)throw new Error('対応していない保存形式です。');
@@ -13,7 +13,10 @@ export function sanitizeState(raw,{strict=false}={}){
   const result=baseState();
   const strings=v=>Array.isArray(v)?[...new Set(v.filter(s=>typeof s==='string'&&s.length<150))]:[];
   if(strict&&!['2026-10-28','2026-10-29'].includes(raw.snapshot))throw new Error('このデータ基準日は未対応です。計算機を更新してください。');
-  result.snapshot=['2026-10-28','2026-10-29'].includes(raw.snapshot)?raw.snapshot:SNAPSHOT;
+  // Old saves follow the updated catalog while retaining inventory and character IDs.
+  // A date explicitly selected after this update remains fixed for historical calculations.
+  result.followLatest=raw.followLatest!==false;
+  result.snapshot=result.followLatest?SNAPSHOT:['2026-10-28','2026-10-29'].includes(raw.snapshot)?raw.snapshot:SNAPSHOT;
   result.custom=Array.isArray(raw.custom)?raw.custom.slice(0,500).filter(c=>c&&typeof c.id==='string'&&c.id.startsWith('custom-')&&typeof c.name==='string'&&c.name.trim()&&GROUPS.some(g=>g.id===c.group)).map(c=>({id:c.id.slice(0,100),name:c.name.trim().slice(0,80),group:c.group,since:'2022-11-04',custom:true})):[];
   result.custom=result.custom.filter((c,i,a)=>a.findIndex(x=>x.id===c.id)===i&&!CHARACTERS.some(x=>normalize(x.name)===normalize(c.name)));
   const known=new Set([...CHARACTERS,...result.custom].map(c=>c.id));
