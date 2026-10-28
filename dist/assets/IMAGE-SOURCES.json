@@ -1,0 +1,2488 @@
+{
+  "checkedAt": "2026-10-28",
+  "copyright": "© SHIFT UP / Proxima Beta",
+  "description": "Official NIKKE website and publisher character-release images. Originals copied byte-for-byte; display framing uses CSS only. Availability checks are not a redistribution license.",
+  "displayReview": "All 124 display windows were checked using a PDF clipping original images with the same coordinates as the CSS framing. Browser preview was unavailable; actual CSS rendering remains an integration check.",
+  "characters": [
+    {
+      "id": "elysion-1",
+      "name": "エマ",
+      "src": "assets/characters/elysion-1.png",
+      "backgroundSize": "186.429% auto",
+      "backgroundPosition": "46.281% 11.688%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Emma.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 54092,
+      "sha256": "d74b7a42788c6dd739726bc7107812f175e43a43714e048afd6c0e7b13b4a5b6",
+      "crop": {
+        "left": 56.0,
+        "top": 36.0,
+        "size": 140
+      }
+    },
+    {
+      "id": "elysion-2",
+      "name": "ウンファ",
+      "src": "assets/characters/elysion-2.png",
+      "backgroundSize": "197.727% auto",
+      "backgroundPosition": "72.868% 14.873%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Eunhwa.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 62814,
+      "sha256": "a5bf18c0d8bbc9eaa789c4e25c8f097de8b71ad33146c712278d10423e18de38",
+      "crop": {
+        "left": 94.0,
+        "top": 47.0,
+        "size": 132
+      }
+    },
+    {
+      "id": "elysion-3",
+      "name": "ベスティー",
+      "src": "assets/characters/elysion-3.png",
+      "backgroundSize": "200.769% auto",
+      "backgroundPosition": "45.038% 12.264%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Vesti.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 54037,
+      "sha256": "126b36b9822864e0e0b2a722d75d8f16495d57be63f2c6b19cadc56231285adc",
+      "crop": {
+        "left": 59.0,
+        "top": 39.0,
+        "size": 130
+      }
+    },
+    {
+      "id": "elysion-4",
+      "name": "プリバティ",
+      "src": "assets/characters/elysion-4.png",
+      "backgroundSize": "189.13% auto",
+      "backgroundPosition": "60.163% 10.968%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Privaty.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 66605,
+      "sha256": "fcbffd6f6f5f9e3e197975d929800198c1ce9467e51d44b2c64906a68ecc4ca7",
+      "crop": {
+        "left": 74.0,
+        "top": 34.0,
+        "size": 138
+      }
+    },
+    {
+      "id": "elysion-5",
+      "name": "シグナル",
+      "src": "assets/characters/elysion-5.png",
+      "backgroundSize": "180% auto",
+      "backgroundPosition": "46.983% 16.667%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Signal.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 60683,
+      "sha256": "3b9d6fc5c042511ff0e02b016dd5525b1d42d4f0f6c03f2ba3dcde62f0d9f28d",
+      "crop": {
+        "left": 54.5,
+        "top": 50.5,
+        "size": 145
+      }
+    },
+    {
+      "id": "elysion-6",
+      "name": "ポリ",
+      "src": "assets/characters/elysion-6.png",
+      "backgroundSize": "178.767% auto",
+      "backgroundPosition": "41.739% 13.245%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Poli.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 62281,
+      "sha256": "d49f9280a983d6f2aa63299001470500f455990245b93025238cc83dc5c0ba0e",
+      "crop": {
+        "left": 48.0,
+        "top": 40.0,
+        "size": 146
+      }
+    },
+    {
+      "id": "elysion-7",
+      "name": "ミランダ",
+      "src": "assets/characters/elysion-7.png",
+      "backgroundSize": "189.13% auto",
+      "backgroundPosition": "49.593% 11.935%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Miranda.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 63987,
+      "sha256": "62c9c386a13214b6c08d394970176f1693742cca2d4a21788561155c8a7f9cf2",
+      "crop": {
+        "left": 61.0,
+        "top": 37.0,
+        "size": 138
+      }
+    },
+    {
+      "id": "elysion-8",
+      "name": "ブリッド",
+      "src": "assets/characters/elysion-8.png",
+      "backgroundSize": "193.75% auto",
+      "backgroundPosition": "42% 20.388%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Brid.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 249587,
+      "sha256": "b371ae290e9042616f33297d9e4e3581d7f55dff56184773e6ea1d10f0afb7f8",
+      "crop": {
+        "left": 63.0,
+        "top": 84.0,
+        "size": 160
+      }
+    },
+    {
+      "id": "elysion-9",
+      "name": "ソリン",
+      "src": "assets/characters/elysion-9.png",
+      "backgroundSize": "174% auto",
+      "backgroundPosition": "44.144% 15.772%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Soline.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 65110,
+      "sha256": "4f0ca3b08053bccd17e1cacf4bb3902d17573bab66ebea1aaa2314039d651239",
+      "crop": {
+        "left": 49.0,
+        "top": 47.0,
+        "size": 150
+      }
+    },
+    {
+      "id": "elysion-10",
+      "name": "ディーゼル",
+      "src": "assets/characters/elysion-10.png",
+      "backgroundSize": "186.429% auto",
+      "backgroundPosition": "45.455% 15.26%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Diesel.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 55723,
+      "sha256": "a08ecd20da36a0765e68a3b9ba6fa91df6589ff4372d10ad3cbfec9be64eb0a4",
+      "crop": {
+        "left": 55.0,
+        "top": 47.0,
+        "size": 140
+      }
+    },
+    {
+      "id": "elysion-11",
+      "name": "ギロチン",
+      "src": "assets/characters/elysion-11.png",
+      "backgroundSize": "183.803% auto",
+      "backgroundPosition": "62.185% 11.111%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Guillotine.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 61856,
+      "sha256": "0be9c7f33e8673acb0c60bb29d2696a482a971d47b98fb4e54a669bae58c1104",
+      "crop": {
+        "left": 74.0,
+        "top": 34.0,
+        "size": 142
+      }
+    },
+    {
+      "id": "elysion-12",
+      "name": "メイデン",
+      "src": "assets/characters/elysion-12.png",
+      "backgroundSize": "186.429% auto",
+      "backgroundPosition": "62.81% 8.117%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Maiden.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 58281,
+      "sha256": "7d395a8029f69cf6a6d402083c69a96d75b0954b82abf8fc4ec14a16ec823567",
+      "crop": {
+        "left": 76.0,
+        "top": 25.0,
+        "size": 140
+      }
+    },
+    {
+      "id": "elysion-13",
+      "name": "ヘルム",
+      "src": "assets/characters/elysion-13.png",
+      "backgroundSize": "174% auto",
+      "backgroundPosition": "65.766% 12.752%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Helm.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 57589,
+      "sha256": "368c50df211557dbf85f8063428e3fbf6ceac88e39ca9e97cca0b07a6a91574b",
+      "crop": {
+        "left": 73.0,
+        "top": 38.0,
+        "size": 150
+      }
+    },
+    {
+      "id": "elysion-14",
+      "name": "D",
+      "src": "assets/characters/elysion-14.png",
+      "backgroundSize": "197.727% auto",
+      "backgroundPosition": "80.62% 7.595%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/D.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 63702,
+      "sha256": "1e13acf58efdb3991dd49644012f354c9c12ab9baf7e23295fcb22fba22399ad",
+      "crop": {
+        "left": 104.0,
+        "top": 24.0,
+        "size": 132
+      }
+    },
+    {
+      "id": "elysion-15",
+      "name": "マスト",
+      "src": "assets/characters/elysion-15.png",
+      "backgroundSize": "168.387% auto",
+      "backgroundPosition": "77.83% 18.942%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Mast.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 54136,
+      "sha256": "0202dca42b2663932502903dd799b4ffc8ca8b611fbbf6b2bb31dadbc53ca8cc",
+      "crop": {
+        "left": 82.5,
+        "top": 55.5,
+        "size": 155
+      }
+    },
+    {
+      "id": "elysion-16",
+      "name": "マルチャーナ",
+      "src": "assets/characters/elysion-16.png",
+      "backgroundSize": "186.429% auto",
+      "backgroundPosition": "40.496% 5.844%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Marciana.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 48861,
+      "sha256": "58294cfa5e640145353125b16ad3bee1b7eded71ad286507ce519fb932878fb9",
+      "crop": {
+        "left": 49.0,
+        "top": 18.0,
+        "size": 140
+      }
+    },
+    {
+      "id": "elysion-17",
+      "name": "キリ",
+      "src": "assets/characters/elysion-17.png",
+      "backgroundSize": "174% auto",
+      "backgroundPosition": "81.081% 8.389%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Quiry.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 59254,
+      "sha256": "f3f19791d1997179d16e38ff5ce12d4411e5af6fbd0ffc50f0fee1d285b548d4",
+      "crop": {
+        "left": 90.0,
+        "top": 25.0,
+        "size": 150
+      }
+    },
+    {
+      "id": "elysion-18",
+      "name": "プリバティ：アンカインド・メイド",
+      "src": "assets/characters/elysion-18.png",
+      "backgroundSize": "180% auto",
+      "backgroundPosition": "56.466% 10.066%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Privaty_Unkind_Maid.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 67024,
+      "sha256": "80bf30cc5143d3f1d15863a3b7b1462a00b55d375ea1ad3b3579743fd349e575",
+      "crop": {
+        "left": 65.5,
+        "top": 30.5,
+        "size": 145
+      }
+    },
+    {
+      "id": "elysion-19",
+      "name": "D：キラーワイフ",
+      "src": "assets/characters/elysion-19.png",
+      "backgroundSize": "200.769% auto",
+      "backgroundPosition": "51.908% 2.516%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/D_Killer_Wife.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 48982,
+      "sha256": "9fc3b955602a51a7bfbedbb892b8213ab865b72d0e4332c32ba899a30ce6f356",
+      "crop": {
+        "left": 68.0,
+        "top": 8.0,
+        "size": 130
+      }
+    },
+    {
+      "id": "elysion-20",
+      "name": "ツバイ",
+      "src": "assets/characters/elysion-20.png",
+      "backgroundSize": "187.879% auto",
+      "backgroundPosition": "50.69% 19.533%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Zwei.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 234861,
+      "sha256": "346bc4421cee4b6ae1c8ecee10c26f02c81aa9e4e78fcfac4cda7e0ceb7e59b0",
+      "crop": {
+        "left": 73.5,
+        "top": 79.5,
+        "size": 165
+      }
+    },
+    {
+      "id": "elysion-21",
+      "name": "ファントム",
+      "src": "assets/characters/elysion-21.png",
+      "backgroundSize": "172.222% auto",
+      "backgroundPosition": "50% 20.663%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Phantom.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 287963,
+      "sha256": "d27f89093166b991701b56a264db2eec43d4c2ea785b5d36aa2b3a99d58e1a1a",
+      "crop": {
+        "left": 65.0,
+        "top": 81.0,
+        "size": 180
+      }
+    },
+    {
+      "id": "elysion-22",
+      "name": "マスト：ロマンチックメイド",
+      "src": "assets/characters/elysion-22.png",
+      "backgroundSize": "182.353% auto",
+      "backgroundPosition": "53.571% 19.154%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Mast_Romantic_Maid.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 264851,
+      "sha256": "322523557e0a91b2c44f8d5c375b4dd1e52f5138d3cc9821157454fdf04638c8",
+      "crop": {
+        "left": 75.0,
+        "top": 77.0,
+        "size": 170
+      }
+    },
+    {
+      "id": "elysion-23",
+      "name": "アンカー：イノセントメイド",
+      "src": "assets/characters/elysion-23.png",
+      "backgroundSize": "187.879% auto",
+      "backgroundPosition": "44.483% 19.779%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Anchor_Innocent_Maid.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 274250,
+      "sha256": "8ef4b7dd798ce24d031849836262fc420d5477de29e012fad08525b9d25e9b15",
+      "crop": {
+        "left": 64.5,
+        "top": 80.5,
+        "size": 165
+      }
+    },
+    {
+      "id": "elysion-24",
+      "name": "アルカナ",
+      "src": "assets/characters/elysion-24.png",
+      "backgroundSize": "200.769% auto",
+      "backgroundPosition": "48.092% 7.233%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Arcana.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 58234,
+      "sha256": "21cdb290b86f86e2bb61e56a6bcf59b7f8e2d9d5de19026b43dd61e9c10f0686",
+      "crop": {
+        "left": 63.0,
+        "top": 23.0,
+        "size": 130
+      }
+    },
+    {
+      "id": "elysion-25",
+      "name": "K",
+      "src": "assets/characters/elysion-25.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/K.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 65663,
+      "sha256": "e62c641489972d82f29b7433e3dc5455df2776d518583f1360b0e4787963de0e",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "elysion-26",
+      "name": "ソラ",
+      "src": "assets/characters/elysion-26.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Sora.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 58536,
+      "sha256": "9e30f55cdc751febab9dab19a9d85882f948ff780ee857f670393576442bff88",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "elysion-27",
+      "name": "エマ：タクティカル・アップ",
+      "src": "assets/characters/elysion-27.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Emma_Tactical_Upgrade.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 54537,
+      "sha256": "1364f4706071266e7ba0ffb384a4bf0654115f2283e3057f8dcd8717651955f1",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "elysion-28",
+      "name": "ウンファ：タクティカル・アップ",
+      "src": "assets/characters/elysion-28.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Eunhwa_Tactical_Upgrade.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 64550,
+      "sha256": "07cfc0d985f6fad2359156e6470c560db28620a1fd5ef1d97628362472392aaf",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "elysion-29",
+      "name": "ベスティー：タクティカル・アップ",
+      "src": "assets/characters/elysion-29.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Vesti_Tactical_Upgrade.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 64268,
+      "sha256": "f8aa5110202f443c69b28ee38971edf297de50f315f9d551ee25d2d2136a2675",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "elysion-30",
+      "name": "デルタ：ニンジャシーフ",
+      "src": "assets/characters/elysion-30.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Delta_Ninja_Thief.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 56094,
+      "sha256": "272cef8bcd0ca285126c5a7d7647ff34b22570b40a7004273c3a07bd3fe35459",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "elysion-31",
+      "name": "ソリン：フロストチケット",
+      "src": "assets/characters/elysion-31.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Soline_Frost_Ticket.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 53716,
+      "sha256": "23326cc3f12fe7b8159eaaa533794090db23ac32baada2d60c2df933f855427e",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "elysion-32",
+      "name": "レーベル",
+      "src": "assets/characters/elysion-32.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Label.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 63772,
+      "sha256": "00bef8f88a6d00acac1d46ebb21a095d5cac97e8d1011d806cca4c7861ffa824",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "elysion-33",
+      "name": "E.H.",
+      "src": "assets/characters/elysion-33.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/EH.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 69073,
+      "sha256": "0022ddcdc2a726ecba797f79d117615caa7d129ba1b57eeb974d15d70d8e8c9c",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "elysion-34",
+      "name": "アルカナ：フォーチュンメイト",
+      "src": "assets/characters/elysion-34.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Arcana_Fortune_Mate.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 62670,
+      "sha256": "f7f7fb359c8d96e6e5a6810e91679305f196e53f283ebb60ff8026f5d17a7eaf",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "missilis-1",
+      "name": "マクスウェル",
+      "src": "assets/characters/missilis-1.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Maxwell.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 47856,
+      "sha256": "ac6c8f18ffaadffe75c262108dfd0c03017034a4f30b5ecb8045f9942a0661d2",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "missilis-2",
+      "name": "ユニ",
+      "src": "assets/characters/missilis-2.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Yuni.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 60557,
+      "sha256": "afd28d6d2696773d96fe29e3f5eed1554ffea2457a2d5228a4451b9d0b74b38d",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "missilis-3",
+      "name": "リター",
+      "src": "assets/characters/missilis-3.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Liter.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 56424,
+      "sha256": "c1403856196cdefe6f8b47c5ea67e72dc3003253bdb19104ab14189b7b5bf5e9",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "missilis-4",
+      "name": "ジュリア",
+      "src": "assets/characters/missilis-4.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Julia.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 67817,
+      "sha256": "7f6874ba9e88f22abc21dbe7f26d57ca3a234c5c1212a4f8ba997a24152d3c71",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "missilis-5",
+      "name": "センチ",
+      "src": "assets/characters/missilis-5.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Centi.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 62200,
+      "sha256": "ac1bb27564738cbdf890f051af815b2f95575167aad3f2bbca7e46194e8e7534",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "missilis-6",
+      "name": "ドレイク",
+      "src": "assets/characters/missilis-6.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Drake.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 56792,
+      "sha256": "a069dcd34a91d926ab4a156f03cd0da37a7d97dd7d236e6c3affcebfd2b1f74d",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "missilis-7",
+      "name": "クロウ",
+      "src": "assets/characters/missilis-7.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Crow.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 58001,
+      "sha256": "5ccc2c1f06067e2b8d07f855650702735501cd3f775c197823a6496e9801d412",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "missilis-8",
+      "name": "ペッパー",
+      "src": "assets/characters/missilis-8.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Pepper.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 54877,
+      "sha256": "fe2f00e267df1305d587e83e8222adeda18a6dc7eae363989a48414aa8799941",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "missilis-9",
+      "name": "アドミ",
+      "src": "assets/characters/missilis-9.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Admi.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 55267,
+      "sha256": "ccbbfa6073fe076e8bbf114598d8c9bc062da7479516892f803e48529983fd0b",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "missilis-10",
+      "name": "エピネル",
+      "src": "assets/characters/missilis-10.png",
+      "backgroundSize": "186.429% auto",
+      "backgroundPosition": "87.603% 16.558%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Epinel.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 61031,
+      "sha256": "195343541b69267fb694cadf2942779ddc0ad6652c039056973ae043334cd2f4",
+      "crop": {
+        "left": 106.0,
+        "top": 51.0,
+        "size": 140
+      }
+    },
+    {
+      "id": "missilis-11",
+      "name": "ラプラス",
+      "src": "assets/characters/missilis-11.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Laplace.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 58704,
+      "sha256": "b065a93b522a69bba52f7b145fd96449f0d2fb46e935e8a7891ab0a859349b94",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "missilis-12",
+      "name": "ジャッカル",
+      "src": "assets/characters/missilis-12.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Jackal.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 66456,
+      "sha256": "0735834bd536deb5eea17ce5af3113b85185b07fa685f1ff0139140ef6c15115",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "missilis-13",
+      "name": "ティア",
+      "src": "assets/characters/missilis-13.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Tia.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 264780,
+      "sha256": "7332290a84f303e425f0592cc2c42957dd5167a551e378b06539bb1e4af7331c",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "missilis-14",
+      "name": "ナガ",
+      "src": "assets/characters/missilis-14.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Naga.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 53211,
+      "sha256": "c57ecf999cafdb5b87e64ad97248f3f1abd3431fc6cc9770224ad1c31e005547",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "missilis-15",
+      "name": "トーブ",
+      "src": "assets/characters/missilis-15.png",
+      "backgroundSize": "193.333% auto",
+      "backgroundPosition": "39.286% 5.911%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Tove.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 55926,
+      "sha256": "d20b46d66c0f61b054caa22b6dc7ebf2b8619e207386d528c6deb6525309c26a",
+      "crop": {
+        "left": 49.5,
+        "top": 18.5,
+        "size": 135
+      }
+    },
+    {
+      "id": "missilis-16",
+      "name": "エレグ",
+      "src": "assets/characters/missilis-16.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Elegg.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 47163,
+      "sha256": "2f38b30136905fa19a12146b6bb0ac1b1ebf2fc05f761395c100bc7973558122",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "missilis-17",
+      "name": "トロニー",
+      "src": "assets/characters/missilis-17.png",
+      "backgroundSize": "193.75% auto",
+      "backgroundPosition": "49.333% 19.66%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Trony.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 233799,
+      "sha256": "f3608723a0b995db938ad2a053bf7312f9d196773f2f668bc196e7b3cf7ae8a4",
+      "crop": {
+        "left": 74.0,
+        "top": 81.0,
+        "size": 160
+      }
+    },
+    {
+      "id": "missilis-18",
+      "name": "アイン",
+      "src": "assets/characters/missilis-18.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Ein.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 291521,
+      "sha256": "f063343c8d3aad0dbd97a65393e63ecc56e930b86029e63bd115f7862bea9ba3",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "missilis-19",
+      "name": "クエンシー：エスケープクイーン",
+      "src": "assets/characters/missilis-19.png",
+      "backgroundSize": "213.793% auto",
+      "backgroundPosition": "0% 35.714%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Quency_Escape_Queen.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 249458,
+      "sha256": "772aa99c89b5950df21d6c29ef9d4d3ed5105e8e2e943fb064af044d1ccbaecd",
+      "crop": {
+        "left": 0,
+        "top": 152.5,
+        "size": 145
+      }
+    },
+    {
+      "id": "missilis-20",
+      "name": "フローラ",
+      "src": "assets/characters/missilis-20.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Flora.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 299101,
+      "sha256": "e01480598a4eb99a37bec5d70d4ecfe486bbfc4f6335781c7547bc9e535c0496",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "missilis-21",
+      "name": "マナ",
+      "src": "assets/characters/missilis-21.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Mana.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 219187,
+      "sha256": "ca67cb5e97bf18c49d0943d70fc6202978e147b6e97a82040e7ef99056ff7d59",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "missilis-22",
+      "name": "トリナ",
+      "src": "assets/characters/missilis-22.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Trina.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 271953,
+      "sha256": "5372029ac4ee4ef6c8379200b04191735f6522319da097de4a00f5d811ac122e",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "missilis-23",
+      "name": "モリー",
+      "src": "assets/characters/missilis-23.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Mori.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 45399,
+      "sha256": "47f2fcc4c361de90bc553362d8f8c9c3e50a2b4ae74467c1a524d6a53bea38e8",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "missilis-24",
+      "name": "シラツル",
+      "src": "assets/characters/missilis-24.jpg",
+      "backgroundSize": "505.263% auto",
+      "backgroundPosition": "74.675% 4.286%",
+      "source": "https://press.levelinfinite.com/ja-JP/NIKKEGOOD-WORLD",
+      "sourceType": "公式キャラクター紹介画像",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://prcdn.freetls.fastly.net/release_image/145037/113/145037-113-897becc0521700f4fab2b88c4eb6799c-1920x1080.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 430116,
+      "sha256": "69efacfcaa3aa91653718854a6442d986edd7e679d1f634ca74d8e83651d67f2",
+      "crop": {
+        "left": 1150.0,
+        "top": 30.0,
+        "size": 380
+      }
+    },
+    {
+      "id": "missilis-25",
+      "name": "ラプラス：アルティメットヒーロー",
+      "src": "assets/characters/missilis-25.jpg",
+      "backgroundSize": "480% auto",
+      "backgroundPosition": "81.579% 4.412%",
+      "source": "https://prtimes.jp/main/html/rd/p/000000129.000145037.html",
+      "sourceType": "公式キャラクター紹介画像",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://prcdn.freetls.fastly.net/release_image/145037/129/145037-129-559cf5894c39c6ec77992c96d8c3840c-1920x1080.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 488820,
+      "sha256": "44e18629f6666417025e8de8ade589a680fa0a19d58422d99cae49b74ec61962",
+      "crop": {
+        "left": 1240.0,
+        "top": 30.0,
+        "size": 400
+      }
+    },
+    {
+      "id": "missilis-26",
+      "name": "マクスウェル：オーディナリーメカニック",
+      "src": "assets/characters/missilis-26.jpg",
+      "backgroundSize": "468.293% auto",
+      "backgroundPosition": "87.748% 2.239%",
+      "source": "https://prtimes.jp/main/html/rd/p/000000129.000145037.html",
+      "sourceType": "公式キャラクター紹介画像",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://prcdn.freetls.fastly.net/release_image/145037/129/145037-129-2f2746822b6f57c25dba46e97f6fc1b0-1920x1080.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 473334,
+      "sha256": "15b0e0dc143c9a64e6b64c39b9f95b16185329d12132cc1c35765433f83961eb",
+      "crop": {
+        "left": 1325.0,
+        "top": 15.0,
+        "size": 410
+      }
+    },
+    {
+      "id": "missilis-27",
+      "name": "ドレイク：グレイトヴィラン",
+      "src": "assets/characters/missilis-27.jpg",
+      "backgroundSize": "480% auto",
+      "backgroundPosition": "84.526% 4.46%",
+      "source": "https://press.levelinfinite.com/ja-JP/NIKKEGREAT-VILLAIN-UNION-",
+      "sourceType": "公式キャラクター紹介画像",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://imgeucdn.gamespress.com/cdn/files/LevelInfinite/2026/09/070533-385058e4/02.jpg?w=600&mode=max&otf=y&quality=90&format=jpg&bgcolor=black&sky=baa5ba9dd9c0758f85da8101a1642300684dd3c937e23376626781d395760bd3",
+      "width": 600,
+      "height": 338,
+      "bytes": 78763,
+      "sha256": "8821dc4dabb5fd2834190a9dec1a6a1c9c590ed8e5786329e4a1f0378e6fac71",
+      "crop": {
+        "left": 401.5,
+        "top": 9.5,
+        "size": 125
+      }
+    },
+    {
+      "id": "tetra-1",
+      "name": "シュガー",
+      "src": "assets/characters/tetra-1.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Sugar.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 63027,
+      "sha256": "bc05fc4854210551d20f9794c86aafe3b3cb7a29cfe7f3f1e6d223f1240a5bab",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-2",
+      "name": "エクシア",
+      "src": "assets/characters/tetra-2.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Exia.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 50370,
+      "sha256": "4638335f88fcfc1f058bb8ab5034e5b96235be7c3f4fe70e53fc09074b8e1cad",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-3",
+      "name": "アリス",
+      "src": "assets/characters/tetra-3.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Alice.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 322536,
+      "sha256": "b36f0fbf9a9c02b717a18e5a3f79f62e6fdf2459bf8bf93ca502bf1dce6976ec",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "tetra-4",
+      "name": "プリム",
+      "src": "assets/characters/tetra-4.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Frima.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 59526,
+      "sha256": "cdce7d69ef4e307c7af444f1ce0cfbfe112ae2c23a499501a6524a09e54a1afe",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-5",
+      "name": "メアリー",
+      "src": "assets/characters/tetra-5.png",
+      "backgroundSize": "186.429% auto",
+      "backgroundPosition": "33.058% 11.364%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Mary.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 52509,
+      "sha256": "f4c0f135ec1d391a1f280449490c509f40e77da82444bb6e04ec495ed2f4ec63",
+      "crop": {
+        "left": 40.0,
+        "top": 35.0,
+        "size": 140
+      }
+    },
+    {
+      "id": "tetra-6",
+      "name": "ミルク",
+      "src": "assets/characters/tetra-6.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Milk.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 62795,
+      "sha256": "436f2d826e930ea997d3de462a2c6296615ace5c406b24f323fa7910b06c142a",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-7",
+      "name": "ユルハ",
+      "src": "assets/characters/tetra-7.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Yulha.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 61084,
+      "sha256": "e40ce369b00429d8a54c49ca2da225c3a49d3fb6694a77cfb3bd63c959410f16",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-8",
+      "name": "ルドミラ",
+      "src": "assets/characters/tetra-8.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Ludmilla.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 55725,
+      "sha256": "20d0ca5350905fc83fe6eeaf79e133169d666146090607ad91ffc0a1ff358a94",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-9",
+      "name": "ルピー",
+      "src": "assets/characters/tetra-9.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Rupee.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 344060,
+      "sha256": "c8d403c45cc3ab4c835bbcd2b11feb597cba8b55c55effe0d5a54ecbac5dbff6",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "tetra-10",
+      "name": "ヤン",
+      "src": "assets/characters/tetra-10.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Yan.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 50879,
+      "sha256": "bdd9187e5b46c9bc2752e2eb0aa869882326e6a185720375b092d6609614e4f3",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-11",
+      "name": "ドラー",
+      "src": "assets/characters/tetra-11.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Dolla.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 55786,
+      "sha256": "ad0a32506ed193fc31393db524e2aa923cf3e7c3e0d67d9b7d2b82a065bac60c",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-12",
+      "name": "ノベル",
+      "src": "assets/characters/tetra-12.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Novel.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 56285,
+      "sha256": "72e3645f8da8a02d5f4027beef5f2199245e1e1124b8cda7a9a76b9baecbd20f",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-13",
+      "name": "フォルクヴァン",
+      "src": "assets/characters/tetra-13.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Folkwang.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 56272,
+      "sha256": "e2a7a292b635cbbc0db6840465d6b50aed59208fb07b2f93e81343958d3231a0",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-14",
+      "name": "アリア",
+      "src": "assets/characters/tetra-14.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Aria.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 277750,
+      "sha256": "146f545cdc7ba58cc48bfe4e730db3f7918c5ea036442ff6d15590144250dfb3",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "tetra-15",
+      "name": "ノイズ",
+      "src": "assets/characters/tetra-15.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Noise.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 52241,
+      "sha256": "3ec3238d0470be480ba5e98620dc9ac03c80593c5b1d4e76a56399dc1adb0596",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-16",
+      "name": "ボリューム",
+      "src": "assets/characters/tetra-16.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Volume.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 55503,
+      "sha256": "6f3fe8a55be71ab573cbf2fca39be36fd907f35de538c7416290bde9fb1a3c55",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-17",
+      "name": "バイパー",
+      "src": "assets/characters/tetra-17.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Viper.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 60076,
+      "sha256": "40147029ae1a3d22e5bf5f98c63c17fdca33798347428b717b39693333a13a9c",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-18",
+      "name": "ココア",
+      "src": "assets/characters/tetra-18.png",
+      "backgroundSize": "187.879% auto",
+      "backgroundPosition": "61.724% 20.516%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Cocoa.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 295296,
+      "sha256": "63b29ac58389356554c7d7bf95c3ea3338c79b814f75655af74ecbfe99400952",
+      "crop": {
+        "left": 89.5,
+        "top": 83.5,
+        "size": 165
+      }
+    },
+    {
+      "id": "tetra-19",
+      "name": "ソーダ",
+      "src": "assets/characters/tetra-19.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Soda.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 62088,
+      "sha256": "2c0c02be08d2ad4c50996498aaedb05ead87100d60f6c8425ba104a628a42b9c",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-20",
+      "name": "ビスケット",
+      "src": "assets/characters/tetra-20.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Biscuit.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 55913,
+      "sha256": "a5c9e672fbb263e44854dfab7116ad98466401b69e85bae939322f4194cb3b0d",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-21",
+      "name": "サクラ",
+      "src": "assets/characters/tetra-21.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Sakura.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 64696,
+      "sha256": "f2221882ebbd0d0c2112f793ae57df0f8bdf0f8fd17d66f4098340b8d62d4d35",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-22",
+      "name": "ブラン",
+      "src": "assets/characters/tetra-22.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Blanc.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 54467,
+      "sha256": "3737dd0bc8fb8d5a9061eac9735e9823ba966e6c3b351ffca8bc1ce95008f8b2",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-23",
+      "name": "ノワール",
+      "src": "assets/characters/tetra-23.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Noir.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 54962,
+      "sha256": "6af561393903c183fec1d271db41906a1fe54240b32ac049f003ff92f3deac1a",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-24",
+      "name": "ロザンナ",
+      "src": "assets/characters/tetra-24.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Rosanna.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 68084,
+      "sha256": "47bebde250d8f24700957292f8f52b4cf49b4f6c79e13cabd36cdbe42c6c923d",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-25",
+      "name": "ネロ",
+      "src": "assets/characters/tetra-25.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Nero.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 59175,
+      "sha256": "c5f80299572049d65d87d0c29357ab48bf28c9441a310980d65e52c27ec0d777",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-26",
+      "name": "レオナ",
+      "src": "assets/characters/tetra-26.png",
+      "backgroundSize": "187.879% auto",
+      "backgroundPosition": "47.241% 26.413%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Leona.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 239644,
+      "sha256": "355873e0cc4c0d47b03a25f47a7dddb6bb4ed3cef4c4a2059272e604d0819443",
+      "crop": {
+        "left": 68.5,
+        "top": 107.5,
+        "size": 165
+      }
+    },
+    {
+      "id": "tetra-27",
+      "name": "モラン",
+      "src": "assets/characters/tetra-27.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Moran.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 62575,
+      "sha256": "e7a7e866eef7ce270d0207e94bc199b480d60c0c121ecc1a4a258592776ba2d7",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-28",
+      "name": "エード",
+      "src": "assets/characters/tetra-28.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Ade.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 57916,
+      "sha256": "98532e3af393eb02644cfadc5b84621068a39bda5b87b8d846d744b880aa3780",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-29",
+      "name": "ベイ",
+      "src": "assets/characters/tetra-29.png",
+      "backgroundSize": "193.75% auto",
+      "backgroundPosition": "45.333% 20.631%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Bay.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 259617,
+      "sha256": "4b07e164cee016f36cff8456f585a8712dd911502194ec323a1f324ce549c511",
+      "crop": {
+        "left": 68.0,
+        "top": 85.0,
+        "size": 160
+      }
+    },
+    {
+      "id": "tetra-30",
+      "name": "ソーダ：トゥインクルバニー",
+      "src": "assets/characters/tetra-30.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Soda_Twinkling_Bunny.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 275947,
+      "sha256": "f7de1f16552c4edfebe59105a36c1ea7808c91944ba9f22556cd4fa8cfea5272",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "tetra-31",
+      "name": "アリス：ワンダーランドバニー",
+      "src": "assets/characters/tetra-31.png",
+      "backgroundSize": "187.879% auto",
+      "backgroundPosition": "56.897% 26.904%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Alice_Wonderland_Bunny.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 265616,
+      "sha256": "7fbceb95c06c36ce3a2f4c649a337bbfa9a526a41f25b42921d1eab8f0c3139c",
+      "crop": {
+        "left": 82.5,
+        "top": 109.5,
+        "size": 165
+      }
+    },
+    {
+      "id": "tetra-32",
+      "name": "クレイ",
+      "src": "assets/characters/tetra-32.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Clay.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 311584,
+      "sha256": "83117f0ed98f7acce2317a9bc18af9ea52c4e72bb584808706c86dbd314471b5",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "tetra-33",
+      "name": "ルージュ",
+      "src": "assets/characters/tetra-33.png",
+      "backgroundSize": "193.75% auto",
+      "backgroundPosition": "46.667% 23.786%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Rouge.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 206639,
+      "sha256": "367d72e6b7ba06235743cb7baeef91aa0cd40e31066f45e2f2bf3e74ba68b581",
+      "crop": {
+        "left": 70.0,
+        "top": 98.0,
+        "size": 160
+      }
+    },
+    {
+      "id": "tetra-34",
+      "name": "ルマニ",
+      "src": "assets/characters/tetra-34.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Rumani.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 265526,
+      "sha256": "b63d28d7ab3f6551f30a7b839c94d008ebaa66e4d13c29ef5dfddb70f503b732",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "tetra-35",
+      "name": "クラスト",
+      "src": "assets/characters/tetra-35.png",
+      "backgroundSize": "186.429% auto",
+      "backgroundPosition": "22.314% 42.208%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Crust.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 57348,
+      "sha256": "490d885446e6743d55692ba0a996a6f127e9b49e5e6fa825cd5901ccdc8743b5",
+      "crop": {
+        "left": 27.0,
+        "top": 130.0,
+        "size": 140
+      }
+    },
+    {
+      "id": "tetra-36",
+      "name": "ブレッディ",
+      "src": "assets/characters/tetra-36.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Bready.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 213821,
+      "sha256": "39330a001e1a0df54839d8ef0c1b76e0724137f7977cacadce36ee4815e0f89e",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "tetra-37",
+      "name": "エード：エージェントバニー",
+      "src": "assets/characters/tetra-37.png",
+      "backgroundSize": "180% auto",
+      "backgroundPosition": "64.224% 22.607%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Ade_Agent_Bunny.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 38751,
+      "sha256": "35d9ee2ebab45d2e27fad0da86fab00fd5da5936df3569e612e7f5751110c215",
+      "crop": {
+        "left": 74.5,
+        "top": 68.5,
+        "size": 145
+      }
+    },
+    {
+      "id": "tetra-38",
+      "name": "ミルク：ブルーミングバニー",
+      "src": "assets/characters/tetra-38.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Milk_Blooming_Bunny.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 39697,
+      "sha256": "dd54e85496deb396231d22f0d693a253aebe7cd8d549da60edb31322769a2c52",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-39",
+      "name": "ベルベット",
+      "src": "assets/characters/tetra-39.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Velvet.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 58508,
+      "sha256": "4d46535c6c9a39f02bcc0ab036706a440034970d58016ae7d04c09c763cccf9f",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "tetra-40",
+      "name": "ミント",
+      "src": "assets/characters/tetra-40.jpg",
+      "backgroundSize": "457.143% auto",
+      "backgroundPosition": "84% 11.364%",
+      "source": "https://prtimes.jp/main/html/rd/p/000000121.000145037.html",
+      "sourceType": "公式キャラクター紹介画像",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://prcdn.freetls.fastly.net/release_image/145037/121/145037-121-7daba392af6db9a69ee7450b0a208a4e-1920x1080.png?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 372762,
+      "sha256": "522f937074b8210886bda2caf7fe82422d7ab3b98789c3d931906564a3380d16",
+      "crop": {
+        "left": 1260.0,
+        "top": 75.0,
+        "size": 420
+      }
+    },
+    {
+      "id": "tetra-41",
+      "name": "プリカ",
+      "src": "assets/characters/tetra-41.jpg",
+      "backgroundSize": "480% auto",
+      "backgroundPosition": "87.5% 8.088%",
+      "source": "https://prtimes.jp/main/html/rd/p/000000122.000145037.html",
+      "sourceType": "公式キャラクター紹介画像",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://prcdn.freetls.fastly.net/release_image/145037/122/145037-122-b47efe19fc257f2af4cf4e3410344138-1920x1080.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 366048,
+      "sha256": "2589abe8bc3b886c4b750ef0fe486a499d761aff4b638cfddee7b78805c2414a",
+      "crop": {
+        "left": 1330.0,
+        "top": 55.0,
+        "size": 400
+      }
+    },
+    {
+      "id": "tetra-42",
+      "name": "アークレンジャー・ブラック",
+      "src": "assets/characters/tetra-42.jpg",
+      "backgroundSize": "468.293% auto",
+      "backgroundPosition": "78.146% 9.701%",
+      "source": "https://prtimes.jp/main/html/rd/p/000000124.000145037.html",
+      "sourceType": "公式キャラクター紹介画像",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://prcdn.freetls.fastly.net/release_image/145037/124/145037-124-af3ee66fa5b26cb0980be4789dff0414-1920x1080.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 502207,
+      "sha256": "5762ba6a050017d4594c577b4c8176136f7f30a4b330788a5a227ab0a5f79881",
+      "crop": {
+        "left": 1180.0,
+        "top": 65.0,
+        "size": 410
+      }
+    },
+    {
+      "id": "pilgrim-1",
+      "name": "スノーホワイト",
+      "src": "assets/characters/pilgrim-1.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Snow_White.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 272428,
+      "sha256": "46d82350c0aa797b36609980559ae720501f0807f4ed268a6959384976c0c524",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "pilgrim-2",
+      "name": "イサベル",
+      "src": "assets/characters/pilgrim-2.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Isabel.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 60888,
+      "sha256": "dde3e056a56e336b1754e22ab10a87f7629997a855cb8e1c574a67d4aebf77d7",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "pilgrim-3",
+      "name": "ラプンツェル",
+      "src": "assets/characters/pilgrim-3.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Rapunzel.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 68373,
+      "sha256": "f6c16351f4823c5940badbf4b79c548d04ec6d91519e9a494f7502a53dbb782e",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "pilgrim-4",
+      "name": "紅蓮",
+      "src": "assets/characters/pilgrim-4.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Scarlet.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 56195,
+      "sha256": "f572a672424d6ef9012bdcd36858f742c26ac6e03398dd0c94a880feec5595bd",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "pilgrim-5",
+      "name": "ハラン",
+      "src": "assets/characters/pilgrim-5.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Harran.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 298786,
+      "sha256": "4570ac0168699cba6b0ae3807e4d80d611ef8646d86892e749605c0a809f7a20",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "pilgrim-6",
+      "name": "ノア",
+      "src": "assets/characters/pilgrim-6.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Noah.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 54955,
+      "sha256": "d96df3a83d8e777d345a80e92aeb891e5cfd6921994efcf27399a1f90183183a",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "pilgrim-7",
+      "name": "モダニア",
+      "src": "assets/characters/pilgrim-7.png",
+      "backgroundSize": "590.909% auto",
+      "backgroundPosition": "49.074% 23.788%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式殿堂入りイラスト",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/sf_img3.png",
+      "width": 1300,
+      "height": 1334,
+      "bytes": 158865,
+      "sha256": "c8acc2f0e62f03841d11b2d9fcc0267ba03f7118e824442ff025efc574d91c47",
+      "crop": {
+        "left": 530.0,
+        "top": 265.0,
+        "size": 220
+      }
+    },
+    {
+      "id": "pilgrim-8",
+      "name": "ドロシー",
+      "src": "assets/characters/pilgrim-8.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Dorothy.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 284247,
+      "sha256": "368cf82ecf91db490132eba6671de0ee5a14b1f64ce1e8e8709ae67473ecec0a",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "pilgrim-9",
+      "name": "レッドフード",
+      "src": "assets/characters/pilgrim-9.png",
+      "backgroundSize": "541.667% auto",
+      "backgroundPosition": "50% 22.395%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式殿堂入りイラスト",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/sf_img2.png",
+      "width": 1300,
+      "height": 1334,
+      "bytes": 216726,
+      "sha256": "e96abce677dfb38a19d78591d82ed8e2cf8135bf5d44ead17a1fcc25c5c00b52",
+      "crop": {
+        "left": 530.0,
+        "top": 245.0,
+        "size": 240
+      }
+    },
+    {
+      "id": "pilgrim-10",
+      "name": "紅蓮：ブラックシャドウ",
+      "src": "assets/characters/pilgrim-10.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Scarlet_Black_Shadow.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 292618,
+      "sha256": "beaa0a1a533d904ff1272803b96a37d6f559dc12eb3c32f0ab87fd882c00f8da",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "pilgrim-11",
+      "name": "クラウン",
+      "src": "assets/characters/pilgrim-11.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 16.978%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Crown.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 347042,
+      "sha256": "f4bf414c94d39061be5bdbb14afdfa2a1b118d53d7a0f32e1c8118fa5c3f514f",
+      "crop": {
+        "left": 68.2,
+        "top": 67.64,
+        "size": 173.6
+      }
+    },
+    {
+      "id": "pilgrim-12",
+      "name": "シンデレラ",
+      "src": "assets/characters/pilgrim-12.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Cinderella.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 59663,
+      "sha256": "db58af80a89e2b346bec102a2c2c19fa32be6b6c8043a35c0b68bba1f466b8b5",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "pilgrim-13",
+      "name": "グレイブ",
+      "src": "assets/characters/pilgrim-13.png",
+      "backgroundSize": "193.75% auto",
+      "backgroundPosition": "56.667% 19.417%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Grave.png",
+      "width": 310,
+      "height": 572,
+      "bytes": 276980,
+      "sha256": "f630b1a51c1810631a3d21d5acb11052b412dac9c7f1eb4ba85c826309b289cf",
+      "crop": {
+        "left": 85.0,
+        "top": 80.0,
+        "size": 160
+      }
+    },
+    {
+      "id": "pilgrim-14",
+      "name": "リトルマーメイド",
+      "src": "assets/characters/pilgrim-14.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Little_Mermaid.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 68467,
+      "sha256": "ff62e15c4f7727e4130b13ea8a1eff95192e2ba4a4297a0849e197780e362d5a",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "pilgrim-15",
+      "name": "ナユタ",
+      "src": "assets/characters/pilgrim-15.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Nayuta.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 68264,
+      "sha256": "12b9b45ed04de5d3ff9f54c0dbde20afa9f40ac060aa93bcef992e228623ae5d",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "pilgrim-16",
+      "name": "リバーレリオ",
+      "src": "assets/characters/pilgrim-16.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Liberalio.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 61447,
+      "sha256": "5ac3b6affa1d725a5f25d290a662c8b5828116d3f4451d9a516bab005dde99ee",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "pilgrim-17",
+      "name": "スノーホワイト：ヘビーアームズ",
+      "src": "assets/characters/pilgrim-17.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Snow_White_Heavy_Arms.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 53083,
+      "sha256": "926b726bf554eb255093e50e8bd5dbc962a06965ba0dace87534d15d96a6364e",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "overspec-1",
+      "name": "ラピ：レッドフード",
+      "src": "assets/characters/overspec-1.png",
+      "backgroundSize": "590.909% auto",
+      "backgroundPosition": "50% 23.788%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式殿堂入りイラスト",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/sf_img1.png",
+      "width": 1300,
+      "height": 1334,
+      "bytes": 132181,
+      "sha256": "09817d2a58ea67517bb762839f9906708a9eb154ceb1ee9864778dc143f58cdf",
+      "crop": {
+        "left": 540.0,
+        "top": 265.0,
+        "size": 220
+      }
+    },
+    {
+      "id": "overspec-2",
+      "name": "ミハラ：ボンディングチェーン",
+      "src": "assets/characters/overspec-2.png",
+      "backgroundSize": "178.571% auto",
+      "backgroundPosition": "50% 15.863%",
+      "source": "https://nikke-jp.com/events/nikkevote3.5th/",
+      "sourceType": "公式人気投票・キャラクター立ち絵",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://nikke-jp.com/events/nikkevote3.5th/ossweb-img/role/Mihara_Bonding_Chain.png",
+      "width": 261,
+      "height": 448,
+      "bytes": 61599,
+      "sha256": "405cb78ec9f4432323bf0c9c71caace3cde4b24215f19324fb7e79f1a38102ca",
+      "crop": {
+        "left": 57.42,
+        "top": 47.88,
+        "size": 146.16
+      }
+    },
+    {
+      "id": "overspec-3",
+      "name": "アニス：スター",
+      "src": "assets/characters/overspec-3.jpg",
+      "backgroundSize": "303.6% auto",
+      "backgroundPosition": "58.939% 19.091%",
+      "source": "https://press.levelinfinite.com/ja-JP/NIKKESTAR-ANIS",
+      "sourceType": "公式キャラクター紹介画像",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://prcdn.freetls.fastly.net/release_image/145037/118/145037-118-cff9e78ac2ccf129fb7728212a18dee6-1080x1920.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+      "width": 759,
+      "height": 1350,
+      "bytes": 216024,
+      "sha256": "a60faca370f1e22b0d72f7b0eb69fbb42f780cb2e12ebb0a786a420f63f91a50",
+      "crop": {
+        "left": 300.0,
+        "top": 210.0,
+        "size": 250
+      }
+    },
+    {
+      "id": "overspec-4",
+      "name": "ネオン：ビジョン・アイ",
+      "src": "assets/characters/overspec-4.jpg",
+      "backgroundSize": "303.6% auto",
+      "backgroundPosition": "75.639% 31.364%",
+      "source": "https://press.levelinfinite.com/ja-JP/NIKKESTAR-ANIS",
+      "sourceType": "公式キャラクター紹介画像",
+      "cropReview": "display-reviewed-pdf",
+      "imageUrl": "https://prcdn.freetls.fastly.net/release_image/145037/118/145037-118-c01129be35b00bcbe6d0d949fd6351fc-1080x1920.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
+      "width": 759,
+      "height": 1350,
+      "bytes": 187053,
+      "sha256": "eb3b33c7df451ba69323c84b64c93e193c87e8b693e39230613bbcb933f0a1cb",
+      "crop": {
+        "left": 385.0,
+        "top": 345.0,
+        "size": 250
+      }
+    }
+  ]
+}

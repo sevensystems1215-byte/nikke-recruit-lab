@@ -1,0 +1,8 @@
+.sites-runtime/
+node_modules/
+*.log
+
+# Personal exports stay outside the source repository.
+nikke-recruit-backup-*.json
+nikke-collection-*.csv
+nikke-missing-*.csv

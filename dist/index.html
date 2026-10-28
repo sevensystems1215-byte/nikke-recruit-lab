@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f0f4f1">
+  <meta name="description" content="NIKKEの恒常SSR所持管理と一般募集・モールドの期待値計算。ブラウザに自動保存できる個人用ノート。">
+  <title>NIKKE RECRUIT LAB｜恒常SSR管理・期待値計算</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23f0f4f1'/%3E%3Cpath d='M10 10h9v9h-9zm11 11h9v9h-9zm0-11h9v9h-9zM10 21h9v9h-9z' fill='%232e6e45'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <a class="brand" href="#roster" aria-label="RECRUIT LAB ホーム"><span class="brand-mark"><i></i><i></i><i></i><i></i></span><span>RECRUIT<span class="brand-sub">LAB / NIKKE</span></span></a>
+    <div class="workspace-label">COMMANDER WORKSPACE</div>
+    <nav aria-label="メインナビゲーション">
+      <button class="nav-item active" data-page="roster"><span data-icon="grid"></span>所持一覧<span class="nav-count" id="navTotal">124</span></button>
+      <button class="nav-item" data-page="calculator"><span data-icon="chart"></span>期待値を計算<span class="nav-dot"></span></button>
+      <button class="nav-item" data-page="settings"><span data-icon="settings"></span>データ・設定</button>
+    </nav>
+    <div class="side-wish"><span class="eyebrow">YOUR WISHLIST</span><div><span id="sideWish">0</span><small> / 20</small></div><p>各グループから5体ずつ選択</p><button class="text-link" id="goWish">ウィッシュリストを見る <span>↗</span></button></div>
+    <div class="sidebar-bottom"><span class="live-dot"></span><span id="saveStatus">このブラウザに自動保存</span><small>PERSONAL TOOL · UNOFFICIAL</small></div>
+  </aside>
+  <div class="app-shell">
+    <header class="topbar"><div><span class="breadcrumb">MY WORKSPACE</span><span class="slash">/</span><span id="pageLabel">所持一覧</span></div><div class="top-actions"><span class="date-tag" id="topDate">DATA 2026.10.28</span><button class="primary compact" id="quickSave"><span data-icon="save"></span>セーブ</button><button class="icon-btn" id="quickExport" title="JSONバックアップを書き出す" aria-label="JSONバックアップを書き出す"><span data-icon="download"></span></button></div></header>
+    <div class="save-bar" id="saveBar"><span id="localSaveStatus">この端末に自動保存</span><strong id="urlSaveStatus" role="status" aria-live="polite">保存データを確認しています</strong><button class="text-link" id="copyUrl" disabled>URLをコピー</button></div>
+    <main id="main">
+      <section id="page-roster" class="page">
+        <div class="page-heading"><div><div class="eyebrow">YOUR COLLECTION, CLEARLY.</div><h1>次の一人を、見つけよう<span class="mint">.</span></h1><p>恒常SSRの所持状況を整理して、次の募集を計画。</p></div><button class="primary" id="goCalc">期待値を計算 <span data-icon="arrow"></span></button></div>
+        <div class="stats-grid" id="rosterStats"></div>
+        <div class="collection-top"><div class="section-title"><span class="mini-square"></span><h2>SSRコレクション</h2><span class="pill" id="catalogCount">124 NIKKES</span></div><span class="subtle">所持・凸状況を登録 · ☆でウィッシュ登録</span></div>
+        <div class="collection-toolbar">
+          <div class="group-filters" id="groupFilters"></div>
+          <div class="search-wrap"><span data-icon="search"></span><input id="search" type="search" placeholder="ニケの名前で検索" aria-label="ニケの名前で検索" autocomplete="off"><kbd>/</kbd></div>
+        </div>
+        <div class="list-toolbar"><div class="segmented" id="statusFilters"><button data-status="all" class="active">すべて</button><button data-status="missing">未所持</button><button data-status="owned">所持済み</button><button data-status="wish">☆ ウィッシュ</button></div><div class="list-actions"><select id="rankFilter" class="rank-filter" aria-label="凸状況で絞り込み"><option value="all">凸状況：すべて</option><option value="0">無凸</option><option value="1">1凸</option><option value="2">2凸</option><option value="3">3凸</option><option value="mlb">3凸以上</option><option value="core">コア強化中</option><option value="max">コア＋7（最大）</option></select><span id="visibleCount" class="subtle"></span><button class="text-link" id="bulkOwned">表示分を所持に</button><button class="text-link" id="bulkMissing">未所持に</button></div></div>
+        <div class="character-grid" id="characters"></div>
+        <div id="noResults" class="empty-state" hidden><span data-icon="search"></span><h3>一致するニケがいません</h3><p>名前や絞り込み条件を変えてみてください。</p><button class="secondary" id="clearFilters">絞り込みを解除</button></div>
+        <footer class="page-footer"><span>SSRのみ · 期間限定・コラボ・配布専用・解放専用を除く</span><button class="text-link" data-open-settings>対象キャラ・更新日を変更 <span>↗</span></button></footer>
+      </section>
+      <section id="page-calculator" class="page" hidden>
+        <div class="page-heading"><div><div class="eyebrow">PLAN YOUR NEXT RECRUIT.</div><h1>手持ちの資源から、見通す<span class="mint">.</span></h1><p>チケットとモールドを入力すると、獲得期待値が更新されます。</p></div><button class="secondary" id="backRoster"><span data-icon="grid"></span>所持一覧へ</button></div>
+        <div class="calc-layout">
+          <div class="resource-column">
+            <section class="panel resource-panel"><div class="panel-head"><span class="step">01</span><h2>使う資源</h2><span class="subtle">所持数を入力</span></div><div id="resourceInputs"></div><div class="resource-note">モールド・アクセスは<span>かけらの個数</span>を入力。50個で1回使用します。</div></section>
+            <section class="panel wishlist-panel"><div class="panel-head"><span class="step">02</span><h2>一般募集の設定</h2></div><label class="mode-select"><span>排出対象</span><select id="wishMode"><option value="on">ウィッシュリストを使う</option><option value="off">未設定として計算する</option></select></label><div id="wishlistOverview"></div><button class="secondary full" id="autoWish"><span data-icon="star"></span>未所持を優先して仮設定</button><p class="fine-print">仮設定はゲーム内と連動しません。使用する20体に合わせて編集してください。</p><label class="check-row"><input type="checkbox" id="recycle"><span>アクセスから出る追加パーフェクトも使う</span></label></section>
+          </div>
+          <div class="results-column"><div class="results-heading"><div class="section-title"><span class="mini-square"></span><h2>募集シミュレーション</h2></div><span class="pill green">LIVE CALCULATION</span></div><div id="calculationWarnings"></div><div id="resultCards" class="result-cards"></div><section class="panel projection-panel"><div class="panel-head"><h2>新しい出会いの見通し</h2><span class="subtle">未所持を1体以上迎える確率</span></div><div id="projectionChart"></div><p class="fine-print">入力したモールドをすべて使い、一般募集の回数を変えた場合。ウィッシュリストは固定です。</p></section><section class="panel breakdown-panel"><div class="panel-head"><h2>資源別の内訳</h2><span class="subtle">ランダム排出のみ</span></div><div class="table-scroll"><table><thead><tr><th>資源</th><th>使用回数</th><th>残り</th><th>SSR期待数</th></tr></thead><tbody id="sourceBreakdown"></tbody></table></div></section><section class="panel probability-panel"><div class="panel-head"><h2>未所持キャラごとの獲得確率</h2><span id="probabilityCount" class="pill"></span></div><div class="table-scroll"><table><thead><tr><th>ニケ</th><th>グループ</th><th>一般募集1回</th><th>全資源で1体以上</th></tr></thead><tbody id="probabilityRows"></tbody></table></div><div class="table-empty" id="probabilityEmpty" hidden>未所持のニケがいません。コレクション達成です。</div></section><details class="panel assumptions"><summary>計算の前提・式を見る <span>＋</span></summary><div><p>「SSR獲得期待数」は重複を含む体数。「新規獲得期待数」は、最初に未所持だったキャラを何種類獲得できるかの期待値です。複数回引いても同じキャラは1種類と数えます。</p><p>各キャラの獲得確率は 1 − 各入手経路で一度も引かない確率の積。新規獲得期待数は、未所持キャラ全員の獲得確率の合計です。アクセスの成功・失敗と還元による追加確定分は、同時に計算しています。</p><p>ウィッシュリスト有効時は、3企業の合計3.5%を15体、ピルグリム・OSの合計0.5%を5体に等分。未設定時はそれぞれの対象キャラ全員に等分します。各種モールドは該当プール内のSSRを等確率として計算します。</p><p>計算中のウィッシュリスト入替、ボーナスリクルートの選択交換、ボディラベルの再交換は含みません。期待値は結果の保証ではありません。</p><button class="text-link" data-open-settings>排出率・計算対象を確認する ↗</button></div></details></div>
+        </div>
+      </section>
+      <section id="page-settings" class="page" hidden>
+        <div class="page-heading"><div><div class="eyebrow">MAKE IT YOUR OWN.</div><h1>データ・設定<span class="mint">.</span></h1><p>バックアップ、募集対象、計算に使う確率を管理できます。</p></div></div>
+        <div class="settings-grid"><section class="panel"><div class="panel-head"><h2>保存・バックアップ</h2><span data-icon="save"></span></div><p>編集内容はこの端末に自動保存されます。「セーブ」で最新データ入りのURLを同じタブで開き直します。そのタブをブラウザの共有機能で別の端末へ送ってください。</p><div class="button-row"><button id="saveUrl" class="primary"><span data-icon="save"></span>セーブ</button><button id="exportData" class="secondary"><span data-icon="download"></span>JSONを書き出す</button><button id="importData" class="secondary"><span data-icon="upload"></span>読み込む</button></div><input type="file" id="importFile" accept=".json,application/json" hidden><p class="fine-print">URLはセーブ時点の状態です。別の端末で編集した後も、セーブしてからタブを送り返してください。</p><div class="recovery-block"><button id="restoreBackup" class="secondary" disabled>取り込み前に戻す</button><p id="recoveryInfo" class="fine-print"></p></div><button class="text-link spaced" id="exportMissing">未所持一覧をCSVで保存 ↗</button><button class="text-link spaced" id="exportCollection">凸状況を含む所持一覧をCSVで保存 ↗</button><p class="fine-print">凸状況は無凸・1〜3凸・コア＋1〜＋7を登録できます。以前のデータや凸未入力の所持キャラは、無凸として表示します。</p><div id="storageMessage" class="fine-print">編集内容はこの端末に自動保存されます。</div></section>
+        <section class="panel"><div class="panel-head"><h2>募集対象のスナップショット</h2><span class="pill">SSR ONLY</span></div><label class="settings-field"><span>一般募集の対象日</span><select id="snapshot"><option value="2026-10-28">2026.10.28 時点｜124体</option><option value="2026-10-29">2026.10.29 更新後｜127体</option></select></label><p class="fine-print">10/29更新後には、ギルティ：マイティバニー、シン：スウィフトバニー、ベロータ：パンプキンウィッチを追加します。日付による自動切替は行いません。</p><p class="fine-print">新キャラは下のフォームから追加できます。対象の違いがある場合は、キャラごとに計算対象から除外できます。</p></section>
+        <section class="panel"><div class="panel-head"><h2>排出率・還元の設定</h2><button class="text-link" id="defaultRates">標準値に戻す</button></div><div class="rates-grid" id="ratesInputs"></div><p class="fine-print">ゲーム内の確率情報を優先してください。変更内容はすぐに計算に反映されます。パーフェクト系はSSR100%で固定です。</p></section>
+        <section class="panel"><div class="panel-head"><h2>キャラを追加</h2><span data-icon="plus"></span></div><form id="addCharacter"><label class="settings-field"><span>キャラクター名</span><input id="customName" maxlength="80" placeholder="例：新しく恒常入りしたニケ" required></label><label class="settings-field"><span>募集グループ</span><select id="customGroup"><option value="elysion">エリシオン</option><option value="missilis">ミシリス</option><option value="tetra">テトラ</option><option value="pilgrim">ピルグリム・オーバースペック</option></select></label><button type="submit" class="secondary full">追加する <span data-icon="plus"></span></button></form><p class="fine-print">衣装だけの変更・限定・配布専用・解放専用は追加対象に含めません。</p></section>
+        <section class="panel catalog-panel"><div class="panel-head"><h2>キャラごとの計算対象</h2><span class="subtle">所持状態とは別の設定です</span></div><div class="search-wrap"><span data-icon="search"></span><input id="catalogSearch" type="search" placeholder="キャラを検索して対象を変更" aria-label="計算対象のキャラ検索"></div><div id="catalogEditor"></div></section>
+        <section class="panel sources-panel"><div class="panel-head"><h2>参照データ</h2><span class="pill">CHECKED 2026.10.28</span></div><p class="fine-print">公開情報を照合した初期データです。ゲーム内の最新の排出対象・確率と異なる場合は、対象キャラと確率を変更してください。外部サイトからの自動更新は行いません。</p><div id="references"></div><p class="fine-print"><a href="assets/IMAGE-SOURCES.md" target="_blank" rel="noopener">顔アイコンの画像出典一覧 ↗</a></p><p class="fine-print">『勝利の女神：NIKKE』の非公式個人用ツールです。キャラクター画像：© SHIFT UP / Proxima Beta。</p></section></div>
+      </section>
+    </main>
+    <footer class="global-footer"><span>NIKKE / RECRUIT LAB</span><span>少しずつ埋まる、あなたのコレクション。</span><span id="footerDate">DATA · 2026.10.28</span></footer>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog id="wishDialog"><div class="dialog-head"><div><span class="eyebrow">YOUR WISHLIST</span><h2>20体のウィッシュリスト</h2></div><button class="icon-btn" id="closeWish" aria-label="閉じる"><span data-icon="close"></span></button></div><div id="wishDialogBody"></div><div class="dialog-footer"><span class="fine-print">☆を押すと登録を解除できます。</span><button class="primary" id="editWish">一覧で編集</button></div></dialog>
+  <dialog id="importDialog" aria-labelledby="importHeading"><div class="dialog-head"><div><span class="eyebrow">SAVE DATA</span><h2 id="importHeading">引き継ぎデータを確認</h2></div></div><p class="fine-print">端末内のデータと、取り込むデータを確認してください。取り込み前の状態は1世代残せます。</p><div class="import-comparison"><section><h3>この端末のデータ</h3><div id="localSummary" class="import-summary"></div></section><section><h3>取り込むデータ</h3><div id="incomingSummary" class="import-summary"></div></section></div><div class="dialog-footer"><button class="secondary" id="keepLocal">この端末のデータを使う</button><button class="primary" id="applyIncoming">URLのデータを取り込む</button></div></dialog>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
