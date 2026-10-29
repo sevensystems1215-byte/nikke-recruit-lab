@@ -2,7 +2,7 @@
   "checkedAt": "2026-10-29",
   "copyright": "© SHIFT UP / Proxima Beta",
   "description": "Official NIKKE website and publisher character-release images. Originals copied byte-for-byte; display framing uses CSS only. Availability checks are not a redistribution license.",
-  "displayReview": "Original 124 framing windows reviewed using PDF. Three 2026-10-29 additions use official publisher announcement originals and CSS face framing; browser verification status is recorded per character.",
+  "displayReview": "Original 124 framing windows reviewed using PDF. Three 2026-10-29 additions use official publisher announcement originals and CSS face framing; browser verification status is recorded per character. Neon: Vision Eye was corrected on 2026-10-29 to the standing pose from the official April 30 pickup announcement; source and CSS framing are recorded on its entry.",
   "characters": [
     {
       "id": "elysion-1",
@@ -2467,22 +2467,23 @@
     {
       "id": "overspec-4",
       "name": "ネオン：ビジョン・アイ",
-      "src": "assets/characters/overspec-4.jpg",
-      "backgroundSize": "303.6% auto",
-      "backgroundPosition": "75.639% 31.364%",
-      "source": "https://press.levelinfinite.com/ja-JP/NIKKESTAR-ANIS",
-      "sourceType": "公式キャラクター紹介画像",
-      "cropReview": "display-reviewed-pdf",
-      "imageUrl": "https://prcdn.freetls.fastly.net/release_image/145037/118/145037-118-c01129be35b00bcbe6d0d949fd6351fc-1080x1920.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff",
-      "width": 759,
-      "height": 1350,
-      "bytes": 187053,
-      "sha256": "eb3b33c7df451ba69323c84b64c93e193c87e8b693e39230613bbcb933f0a1cb",
+      "src": "assets/characters/overspec-4-standing.jpg",
+      "backgroundSize": "564.706% auto",
+      "backgroundPosition": "69.620% 17.568%",
+      "source": "https://prtimes.jp/main/html/rd/p/000000120.000145037.html",
+      "sourceType": "公式募集告知画像・立ち絵",
+      "cropReview": "source-reviewed",
+      "imageUrl": "https://prcdn.freetls.fastly.net/release_image/145037/120/145037-120-58ce65be40bfefe38ddf76d44fb54061-1920x1080.jpg?auto=webp&bg-color=fff&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 443825,
+      "sha256": "d5367ea9add65c1205a84d47a158c88c94cdafb9e4f49a29fbe8888f9e6665ea",
       "crop": {
-        "left": 385.0,
-        "top": 345.0,
-        "size": 250
-      }
+        "left": 1100,
+        "top": 130,
+        "size": 340
+      },
+      "checkedAt": "2026-10-29"
     },
     {
       "id": "missilis-guilty-bunny",

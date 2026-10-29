@@ -986,12 +986,12 @@ export const PORTRAITS = Object.freeze({
     "cropReview": "display-reviewed-pdf"
   },
   "overspec-4": {
-    "src": "assets/characters/overspec-4.jpg",
-    "backgroundSize": "303.6% auto",
-    "backgroundPosition": "75.639% 31.364%",
-    "source": "https://press.levelinfinite.com/ja-JP/NIKKESTAR-ANIS",
-    "sourceType": "公式キャラクター紹介画像",
-    "cropReview": "display-reviewed-pdf"
+    "src": "assets/characters/overspec-4-standing.jpg",
+    "backgroundSize": "564.706% auto",
+    "backgroundPosition": "69.620% 17.568%",
+    "source": "https://prtimes.jp/main/html/rd/p/000000120.000145037.html",
+    "sourceType": "公式募集告知画像・立ち絵",
+    "cropReview": "source-reviewed"
   },
   "missilis-guilty-bunny": {
     "src": "assets/characters/missilis-guilty-bunny.jpg",
